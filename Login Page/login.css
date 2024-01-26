@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('new.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.681);
+    margin: 0px;
+}
+ul li{
+    list-style: none;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.6s;
+}
+a:hover{
+    color: rgb(247, 136, 210);
+    text-decoration: underline;
+}
+.loginbox{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(160, 160, 160);
+    background-color: white;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 175px auto;
+    background: rgba(0, 0, 0, 0.681)
+}
+.heading2{
+    text-align: center;
+    color: white;
+}
+form{
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 6px;
+    margin: 5px 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="button"]{
+    margin-top: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(219, 227, 235, 0.621);
+    color: rgb(239, 237, 237);
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+input[type="button"]:hover {
+    background-color: rgb(194, 225, 246);
+    color: rgb(10, 136, 214);
+}
+label{
+    display: block;
+    margin: 10px 0;
+    color: #cbcbcb;
+    font-size: large;
+}
+footer img{
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+}
